@@ -1,5 +1,7 @@
 # wagi-tests
 
+[![en](https://img.shields.io/badge/lang-en-red)](README.md) [![pt-br](https://img.shields.io/badge/lang-pt--br-green)](README.pt-br.md)
+
 ## Configuration
 
 ### Install wagi
