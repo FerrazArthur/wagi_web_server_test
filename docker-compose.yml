@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+
+  wagi-server:
+    build:
+      context: .
+    container_name: wagi-server
+    ports:
+      - "${LOCAL_WAGI_BIND_PORT}:${LOCAL_WAGI_BIND_PORT}"
+    environment:
+      - LOCAL_WAGI_BIND_IP=${LOCAL_WAGI_BIND_IP}
+      - LOCAL_WAGI_BIND_PORT=${LOCAL_WAGI_BIND_PORT}
