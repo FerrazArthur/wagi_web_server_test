@@ -2,6 +2,7 @@ version: '3.3'
 services:
 
   wagi-server:
+    image: registry.quant1.com.br/arthur/wagi-tests
     build:
       context: .
     container_name: wagi-server
