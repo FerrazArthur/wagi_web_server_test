@@ -1,9 +1,9 @@
 [[module]]
-module = "src/append/append.wasm"
+module = "append/append.wasm"
 route = "/append"
 volumes = {"/" = "."}
 
 [[module]]
 
-module = "src/quicksort/speed.wasm"
+module = "quicksort/speed.wasm"
 route = "/quicksort"
