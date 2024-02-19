@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <sys/stat.h>
 
-#define MAXLEN 80
+#define MAXLEN 10000
 #define EXTRA 5
 /* add 5 to account for prefix "data="*/
 #define MAXINPUT MAXLEN  + EXTRA + 2

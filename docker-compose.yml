@@ -2,10 +2,12 @@ version: '3.3'
 services:
 
   wagi-server:
-    image: registry.quant1.com.br/arthur/wagi-tests
+    image: wagi-test
     build:
       context: .
     container_name: wagi-server
+    tty: true
+    stdin_open: true
     ports:
       - "${LOCAL_WAGI_BIND_PORT}:${LOCAL_WAGI_BIND_PORT}"
     environment:
